@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excluive Flower Shop </title>
+    <!-- Google Font Cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/1d5b89be9d.js" crossorigin="anonymous"></script>
+    <!-- Tailwind Css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .lato-regular {
+            font-family: "Lato", serif;
+        }
+    </style>
+</head>
+
+<body class="lato-regular">
+    <!-- Header Section -->
+    <header class="bg-[rgba(229,84,115,0.1)] px-10 md:px-16 lg:px-28">
+        <div class="max-w-[1440px] mx-auto pt-12
+                    lg:flex lg:justify-between  lg:items-center">
+
+            <!-- Text section -->
+            <div class="max-w-[708px] space-y-8 
+                        mb-10 md:mb-0">
+
+                <h1 class="text-[4.5rem]  lg:text-[6.67rem] 
+                           font-extrabold text-[#272727] ">
+                    Let's make beautiful flowers a part of your life.</h1>
+
+                <p class="text-[1.5rem] text-[rgba(39,39,39,0.6)]
+                max-w-[630px]">
+                    It is a long established fact that a reader will be distracted by the readable content of a page
+                    when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters.</p>
+
+                <button class="text-[1.67rem] font-bold px-[40px] py-5 text-white bg-[rgb(229,84,115)] rounded-lg">Shop
+                    Now</button>
+            </div>
+
+            <!-- Image Section -->
+            <div>
+                <img src="images/pngwing10.png" alt="">
+            </div>
+        </div>
+    </header>
+    <!-- Main Section -->
+    <main>
+        <!-- Our Featured Flowers -->
+        <section class="max-w-[1440px] mx-auto mt-[170px]
+        px-10 md:px-16 lg:px-28">
+            <div>
+                <!-- section heading -->
+                <div class="text-center space-y-6 mb-12">
+                    <h1 class="text-[3.34rem] font-extrabold text-[rgb(39,39,39)]">Our Featured Flowers</h1>
+                    <p class="max-w-[590px] mx-auto text-[rgba(39,39,39,0.6)] text-[1.5rem]">It is a long established
+                        fact that a reader will be distracted by the readable content of a page when looking at its
+                        layout.</p>
+                </div>
+
+                <!-- Flower Cards -->
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-12  lg:gap-6">
+                    <!-- flower card 1 -->
+                    <div class="space-y-8">
+                        <div class="bg-[rgba(167,33,98,0.15)] rounded-t-full">
+                            <img class="mx-auto pt-[110px]" src="images/pngwing 6.png" alt="">
+                        </div>
+                        <p class="text-center  text-[2rem] font-bold 
+                        text-[rgb(39,39,39)] underline underline-offset-8">
+                            Pink Flower Tree</p>
+                    </div>
+
+                    <!-- flower card 2 -->
+                    <div class="space-y-8">
+                        <div class="bg-[rgba(5,151,160,0.15)] rounded-t-full">
+                            <img class="mx-auto pt-[110px] pb-[58px]" src="images/pngwing 5.png" alt="">
+                        </div>
+                        <p class="text-center  text-[2rem] font-bold 
+                        text-[rgb(39,39,39)] underline underline-offset-8">
+                            Pink Flower Tree</p>
+                    </div>
+
+                    <!-- flower card 3 -->
+                    <div class="space-y-8">
+                        <div class="bg-[rgba(71,125,17,0.15)] rounded-t-full">
+                            <img class="mx-auto pt-[67px]" src="images/pngwing 7.png" alt="">
+                        </div>
+                        <p class="text-center  text-[2rem] font-bold 
+                        text-[rgb(39,39,39)] underline underline-offset-8">
+                            Pink Flower Tree</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Support -->
+         <section class="max-w-[1440px] mx-auto mt-[128px]
+         px-10 md:px-16 lg:px-28">
+         <!-- grid grid-cols-3 gap-10 -->
+            <div class="flex justify-evenly items-center text-center bg-[rgba(39,39,39,0.05)] rounded-lg py-20">
+                <div class="space-y-6">
+                    <img class="mx-auto" src="images/Group 57.png" alt="">
+                    <p class="text-[2rem] font-semibold  
+                    text-[rgba(39,39,39,0.8)]">
+                        Same Day Delivery. Click & Collect.</p>
+                </div>
+                <div class="space-y-6">
+                    <img class="mx-auto" src="images/Group 58.png" alt="">
+                    <p class="text-[2rem] font-semibold  
+                    text-[rgba(39,39,39,0.8)]">Fresh Flowers. Local Growers.</p>
+                </div>
+                <div class="space-y-6">
+                    <img class="mx-auto" src="images/Group 59.png" alt="">
+                    <p class="text-[2rem] font-semibold  
+                    text-[rgba(39,39,39,0.8)]">24/7 Free Support.</p>
+                </div>
+            </div>
+         </section>
+    </main>
+    <!-- Footer Section -->
+    <footer></footer>
+</body>
+
+</html>
